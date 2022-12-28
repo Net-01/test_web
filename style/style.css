@@ -1,0 +1,94 @@
+body{
+    margin: 10px;
+    background-color: rgb(66, 160, 189);
+    align-items: center;
+}
+
+
+
+h1,h2{
+    color: yellowgreen;font-weight: 100;font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;color: brown;font-weight: 100;
+}
+p{
+    color: blueviolet;
+}
+#table{
+    font-family:Times, serif; color: red;
+}
+form{
+   margin-left: 50px;
+}
+#fname,#email,#password,#cfp,#dob,#pob,#imformation{
+    display: flex;
+    color: black;background-color:white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 7px;
+    height: 100%;
+    outline: 0;
+    padding-inline-end: 7px;
+    padding-inline-start: 7px;
+    position: relative;
+    width: 80%;
+    max-width: 300px;
+    }
+ #fname:hover,#email:hover,#password:hover,#cfp:hover,#dob:hover,#pob:hover,#imformation:hover{
+    background-color:rgb(249, 226, 249)
+
+ }
+ .footer{
+    background-color: aqua;
+    border-radius: 10px;
+    align-items: center;
+ }
+ #contact{
+    padding-bottom: 10px;
+    color: blue;
+ }
+ #button:hover{
+    color: red;
+    background-color: aqua;
+    border-radius: 7px;
+    scale: 0.95;
+ }
+ #button{
+    font-size: 15px;
+    color: blue;
+    background-color: violet;
+    border-radius: 7px;
+ }
+ .center{
+    padding: 2px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+ }
+ .logosocial{
+    display:flex;
+    gap: 5px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+ }
+ #fb:hover,
+ #int:hover,
+ #yt:hover{
+    scale: 0.95;
+ }
+ .topnav {
+   overflow: hidden;
+   background-color:wheat;
+ }
+ .topnav a {
+   float: left;
+   display: block;
+   color: red;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ .topnav a:hover {
+   color: black;
+ }
